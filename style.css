@@ -1,0 +1,244 @@
+*{  
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width:980px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+header{
+    background-image: url(./img/nenheader.jpg);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 980px;
+    margin-top: 0;  
+    z-index: 1000; 
+}
+.anh {
+    width: 6em;
+    height: 6em;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    box-shadow: rgb(237, 219, 20) 0px 2px 8px 0px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+header h1{
+    float: right;
+    font-size:  60px;
+    padding-top: 12px; 
+    padding-right: 25px;  
+    background: linear-gradient(to right,rgb(0, 187, 255),rgb(195, 255, 0));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+nav{
+    height: 35px;
+    background: #4d3054;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    position: fixed;
+    width: 980px;
+    margin-top: 100px;
+    z-index: 1000;
+}
+nav ul{
+    list-style: none;
+}
+nav .menu ul li {
+   float: left;
+   line-height: 35px;
+   padding: 0 15px;
+}
+nav .menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav h2{
+    float: right;
+    padding: 0 110px;
+    line-height: 35px;
+    background:linear-gradient(to right,red,blue);
+}
+@keyframes chu_nhay { 
+    0% { color: #ff0000; }
+    25% { color: rgb(246, 255, 0); } 
+    50% { color: rgb(13, 255, 0);  }
+    75% { color: #1e00ff;  }  
+    100% { color: rgb(255, 0, 247); } 
+} 
+.nhay {
+animation: chu_nhay 700ms infinite;
+}
+a:hover{
+    text-shadow: 0 0 10px #7fffd4,
+                0 0 25px #7fffd4,
+                0 0 50px #7fffd4,
+                0 0 60px #7fffd4,
+                0 0 40px #7fffd4;
+}
+h5:hover {
+    text-shadow: 0 0 10px #7fffd4,
+                0 0 25px #7fffd4,
+                0 0 50px #7fffd4,
+                0 0 60px #7fffd4,
+                0 0 40px #7fffd4;
+
+}
+ img {
+    width: 100%;
+    height: 240px;
+    margin-top: 135px;
+ }  
+article h3{
+    text-align: center;
+    padding : 15px 0;
+    color: #272f54;
+    font-size: 20px;
+    text-transform: uppercase;  
+}
+article .noidungtrinhbay, .noidung{
+    width: 28%;
+    padding: 1%;
+    float: left;
+    border: 1px solid aqua;
+    border-radius: 1em;
+    margin-right: 4.69515%;
+    color: rgb(204, 0, 255);
+}
+.noidung:hover {
+    background:linear-gradient(to right, rgb(0, 200, 255), rgb(1, 255, 115));
+    -webkit-background-clip:  text;
+    color: transparent;
+}
+.khungnd{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 2em;
+    padding: 1%;
+    width: 25%;
+    margin-left: 360px;
+    border: 1px solid aqua;
+    background: rgb(0, 255, 213);
+}
+.khungnd1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 2em;
+    padding: 1%;
+    width: 40%;
+    margin-left: 300px;
+    border: 1px solid aqua;
+    background: rgb(0, 255, 213);
+}
+#loi_can_chinh{
+    margin-right: 0;
+}
+
+aside img{
+    margin-top: 0;
+}
+b img{
+    width: 268px;
+    height: 100%;
+    position:fixed;
+    margin-top: 0;
+    right: 0;
+}
+aside img {
+    left: 0;
+    top: 0;
+    width: 268px;
+    height: 744px;
+    position: fixed;
+}
+.content{
+    padding: 10px;
+     border: 1px solid blue;
+     text-align:justify;
+     text-indent:10px;
+}
+video{
+    width: 980px;
+}
+.tieudenhac{
+margin-top: 5px;
+ font-size:20px;
+ margin-left: 15px;
+ margin-bottom: 10px;
+ border: 2px solid rgb(0, 140, 255);
+ text-indent: 5px;
+ width: 10%;
+ border-radius: 2em;
+ background-color: rgb(71, 223, 173);
+ text-align: center;
+}
+footer{
+    width: 980px;
+    background: #272f54;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 0;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+h6{
+    width:18%;
+    border: 2px solid blue;
+    border-radius: 2em;
+    text-indent: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(71, 223, 173);
+}
+h6:hover{
+    text-shadow: 
+                0 0 10px  #7fffd4,
+               0 0 25px  #7fffd4,
+               0 0 40px  #7fffd4,
+               0 0 50px  #7fffd4,
+               0 0 60px  #7fffd4;
+}
+.h7 img{
+    margin-top: 10px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+@keyframes nhaycuoi{
+    0%{ color:#1e00ff;}
+    25%{ color:aqua;}
+    50% { color:red;}
+    75% { color:yellow;}
+    100% { color:rgb(255, 0, 255);}
+}
+.nhay1{
+    color: #fff;
+    animation: nhaycuoi 700ms infinite;
+    border: 2px solid aqua;
+    border-radius: 2em;
+    width: 200px;
+    padding: 1%;
+    margin-left: 370px;
+    background-color: cyan;
+    
+}
+.tambiet {
+    padding: 10px;
+     text-align:justify;
+     text-indent:10px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+}
